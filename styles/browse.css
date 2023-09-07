@@ -1,0 +1,70 @@
+div.thumb {
+	float: left;
+	width: 23%;
+	padding: 2rem 1%;
+}
+
+	div.thumb h3 { height: 2rem; }
+	div.thumb img { width: 80%; }
+	div.thumb p { margin: 0.5rem; }
+
+div#view-buttons {
+	float:right;
+}	
+	div#view-buttons img {
+		width: 2.3rem;
+		padding: 0.7rem 0.5rem 0;
+	}	
+
+div#page-select {
+	text-align: right;
+	clear: both;
+}	
+	div#page-select p { 
+		display: inline-block;
+		font-size: 2rem;
+	}
+
+a.page-buttons {
+	display: inline-block;
+	height: 2.4rem;
+	width: 2.8rem;
+	padding-top: 0.5rem;
+	background-color: #D50C0C;
+	text-align: center;
+	margin: 0.3rem;
+	font-size: 1.1rem;
+}
+
+	a.page-buttons#selected {
+		border: 1px solid white;
+	}
+	
+/*======================================
+|              BAR VIEW                |
+======================================*/
+
+div.bar { clear: both;
+		  text-align: left;
+		  margin-bottom: 2rem;
+		  padding-left: 10%;}
+		  
+			
+		div.bar img { float: left; width: 10rem; }
+		div.bar .details {
+		padding-left: 2rem;
+		float: left;
+		}
+			div.bar .details p.desc{
+			max-width: 500px;
+			}
+		div.bar div.space {
+			clear: both;
+		}
+	
+@media screen and (max-width:999px){
+	div.thumb {
+		width: 31%;
+	}
+}
+

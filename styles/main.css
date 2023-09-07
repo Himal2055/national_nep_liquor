@@ -1,0 +1,95 @@
+@import url("normalize.css");
+@import url("top-nav.css");
+@import url("bottom-nav.css");
+@import url("filter.css");
+
+body {
+	font-family: Oswald, sans-serif;
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+}
+
+p , table , h3 {font-family: 'Droid Sans', sans-serif}
+
+a {color: #FFF; text-decoration:none;}
+
+.container {
+	width: 100%;
+	max-width: 1146px;
+	margin: 0 auto;
+}
+
+.banner {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding-top: 45px;
+}
+
+	.banner-image{
+		width: 100%;
+		border-bottom: 12px solid #d50c0c;
+	}
+	
+	
+/*======================================
+|                FORMS                 |
+======================================*/
+
+table.tab-form th {
+	text-align: right;
+}
+
+table.tab-form td,
+table.tab-form th {
+	padding: 0.2rem;
+}
+	
+input, textarea {
+	background-color: transparent;
+	border: 0.1rem solid #555;
+	border-radius: 0.4rem; 
+	padding: 0.1rem 0.3rem;
+}
+
+input[type="text"] , input[type="email"] , input[type="password"], textarea {
+	width: 100%;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border-color: #b8b8b8;
+}
+
+input[type="submit"]{
+	padding: 0.3rem;
+}
+
+form select, 
+form option {
+	color: black;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+/*======================================
+|                 MISC                 |
+======================================*/
+
+a.add-to-basket,
+button.add-to-basket {
+	/*display: inline-block;*/
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 0.8rem;
+	background-color: green;
+	background-image: linear-gradient(to bottom, #9c9, green );
+	padding: 0.2rem 0.6rem;
+	border-radius: 0.8rem;
+}

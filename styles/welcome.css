@@ -1,0 +1,8 @@
+div#welcome {
+	padding-top: 40px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+div#welcome h1 { font-size: 4rem; }
+div#welcome img { float: left; }
+div#welcome p { float: right; width: 50%; text-align: left; font-size: 1.5rem;}

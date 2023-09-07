@@ -1,0 +1,56 @@
+div#page {
+	padding-top: 2.8rem;
+	background-color: #fff;
+	color: #000;
+}
+
+div#container{
+	margin: 0 auto;
+	text-align: left;
+	width: 80%;
+}
+
+table#cart {
+	text-align: left;
+	vertical-align: middle;
+	margin: 0 auto;
+	width: 100%;
+	border-bottom: 2px solid #000;
+}
+
+	table#cart a {
+		color: #000;
+	}
+
+div#cart-total {
+	padding-right: 2rem;
+	float: right;
+	font-size: 2rem;
+	text-align: right;
+}
+
+a.redbutton {
+	font-family: Droid sans, sans-serif;
+	background-color: #d50c0c;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	padding: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+div.clear { clear: both; padding-bottom: 2rem;}
+
+button#update{ float: left; margin-top: 0.5rem;}
+
+img.pimage {
+	float: left;
+	padding: 3rem 0 0 4rem;
+}
+
+p.bigoldtext {
+	font-size: 2rem;
+	padding-top: 2rem;
+}
+
+
+	

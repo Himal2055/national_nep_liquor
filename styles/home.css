@@ -1,0 +1,43 @@
+/*======================================
+|                BANNER                |
+======================================*/
+	
+
+	#banner-logo, #banner-text {
+		position: absolute;
+		display: inline-block;
+		width: 35%;
+		top: 20%;
+		
+	}
+
+	#banner-logo {
+		left: 10%;
+	}
+
+	#banner-text {
+		right: 10%;
+		color: white;
+		font-size: 1.5rem;
+		text-align: left;
+		top: 30%;
+
+	}
+	
+
+	
+	#sup {
+		color: white;
+		font-size: 2rem;
+	}
+
+div.thumb {
+	float: left;
+	width: 23%;
+	padding: 2rem 1%;
+}
+
+	div.thumb h3 { height: 2rem; }
+	div.thumb img { width: 80%; }
+	div.thumb p { margin: 0.5rem; }
+ h1 { margin-bottom: 0; }

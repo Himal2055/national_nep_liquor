@@ -1,0 +1,19 @@
+footer {
+	clear: both;
+	text-align: center;
+	background-color: black;
+	padding: 10px;
+}
+
+nav#bottom-nav ul {
+	margin: 0;
+}
+
+#bottom-nav li {
+	display: inline;
+	padding: 0 .5rem;
+}
+
+nav#bottom-nav img {
+	vertical-align: middle;
+}

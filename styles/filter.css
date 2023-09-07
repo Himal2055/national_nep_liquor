@@ -1,0 +1,39 @@
+#filter-box {
+	border-bottom: 1px solid white;
+	padding: 0 0 5px 0;
+	margin-bottom: 1.6rem;
+	text-align: left;
+	font-size: 0.8rem;
+}
+
+#filter-box form { display: inline-block; }
+
+
+#filter-box td {
+	text-align: left;
+	padding: 0 1.3rem 0 0.4rem ;
+}
+
+#filter-box td.heading {
+	border-right: 2px solid white;
+	padding: 0.3rem;
+}
+
+#filter-box td#pricelabels {
+	text-align: right;
+	padding-right: 0;
+}
+
+#filter-box input[type="text"]{
+	margin: 0.1rem;
+}
+
+#filter-box input.price {
+	width: 4rem;
+}
+
+/* TYPEBOX DOES NOT SHOW UNLESS JS IS ENABLED */
+td.typebox {
+	display: none;
+}
+

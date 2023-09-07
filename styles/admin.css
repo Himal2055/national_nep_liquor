@@ -1,0 +1,112 @@
+/*======================================
+|                 GATE                 |
+======================================*/
+
+div#admin-gate {
+	display: inline-block;
+	margin: 10% auto;
+}
+
+img#gateway-logo {
+	display: inline-block;
+	float: left;
+	border-right: 2px solid white;
+}
+
+div#admin-gate form{
+	display: inline-block;
+	float: right;
+	margin: 15% 0 0 2rem;
+}
+
+div#admin-gate form h2{
+	text-align: left;
+}
+
+/*======================================
+|              WORKSPACE               |
+======================================*/
+
+div#window {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+div#window h1 span {
+	color: #707070;
+}
+
+	div#window a {display: inline-block;}
+	
+	div#window a.table	{padding: 0 2rem 0.5rem 0;}
+	
+	div#window a#logout {
+		float: right;
+		padding-right: 0;
+	}
+
+div#workspace{
+	border-top: 5px solid #FFF;
+	text-align: center;
+}
+
+div.db-entry {
+	float: right;
+}
+
+	div.db-entry form{
+		text-align: center;
+	}
+
+	div.db-entry th{
+		text-align: right;
+	}
+	
+a.dbutton , input.dbutton {
+	border: 0.1rem solid #555;
+	border-radius: 0.4rem; 
+	padding:  0.7rem 1.7rem;
+	margin: 0.7rem;
+}
+
+a.dbutton:hover , input.dbutton:hover {
+		border-color: white;
+	}
+	
+/*======================================
+|                TABLE                 |
+======================================*/
+
+div.db-table {
+	width: 70%;
+	float: left;
+}
+
+	div.db-table table {
+		width: 100%;
+	}
+	
+		div.db-table table th {
+			border-bottom: 0.2rem solid #707070;
+		}
+		
+		div.db-table table th,
+		div.db-table table td {
+			padding: 0 0.2rem;
+		}
+		
+		div.db-table table tr:nth-child(even) {
+			background-color: #202020;
+		}
+
+/*======================================
+|                AMEND                 |
+======================================*/
+	
+.amend-table {
+	display: inline-block;
+	margin: 0 auto;
+}		
+		
+		

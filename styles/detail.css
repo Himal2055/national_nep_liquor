@@ -1,0 +1,69 @@
+#product-box {
+	position: relative;
+	width: 100%;
+	padding-top: 45px;
+	background-color: #FFF;
+	color: #000;
+	text-align: left;
+	overflow: auto;
+	font-size: 1.2rem;
+}
+
+#product-box div,
+#product-box img {
+	float: left;
+	max-width: 40%;
+	padding: 1rem;
+}
+
+#product-box h1 { padding-left: 1.5rem; }
+
+div.details ul {
+	list-style-type: none;
+	font-family: Droid sans, sans-serif;
+}
+
+#product-box span.price,
+#product-box span.price-exc-vat {
+	font-family: Droid sans, sans-serif;
+	font-weight: bold;
+	font-size: 3rem;
+	display: block;
+}
+
+#product-box span.price-exc-vat {
+	font-size: 1rem;
+	padding-bottom: 0.5rem;
+}
+	
+#product-box div.actions {
+	background-color: #d50c0c;
+	text-align: right;
+	color: #FFF;
+}
+	#product-box div.actions input {
+	width: 3rem;
+}
+	
+	div.details span.attribute {
+		font-family: Oswald, sans-serif;
+	}
+	
+div#divider{
+	clear: both;
+	width: 100%;
+	background-color: #d50c0c;
+	padding: 1rem 0;
+}
+
+h2 { text-align: left; margin-bottom: 0;}
+
+div.thumb {
+	float: left;
+	width: 23%;
+	padding: 2rem 1%;
+}
+
+	div.thumb h3 { height: 2rem; }
+	div.thumb img { width: 80%; }
+	div.thumb p { margin: 0.5rem; }

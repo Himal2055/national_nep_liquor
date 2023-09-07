@@ -1,0 +1,41 @@
+/*======================================
+|             BREAK-POINTS             |
+======================================*/
+
+@media screen and (max-width:820px){
+	
+	nav.top-nav-left {
+		display: block;
+		width: 100%;
+		text-align: center;
+	
+	}
+	
+	.banner {
+		padding-top: 90px;
+	}
+	
+	.banner img#banner-logo,
+	.banner p#banner-text {
+		top: 30%
+	}
+	
+}
+
+
+@media screen and (max-width:750px){
+	#banner-text {
+		font-size: 1.1rem;
+		top: 15%;
+	}
+}
+
+/*======================================
+|                 HOME                 |
+======================================*/
+
+#banner-text {
+	font-size: 1.2rem;
+
+}
+

@@ -1,0 +1,13 @@
+div.reg-box {
+	max-width: 60%;
+	margin: 0 auto 20rem;
+}
+
+div.form {
+	text-align: right;
+}
+
+div.reg-box img {
+	padding-left: 1em;
+	float: right;
+}
